@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS';
+    background-image: url(images/flat-design-poker-table-background_23-2151016809.jpg);
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    width: 222px;
+    height: 40px;
+
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 104, 0);
+
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: 700;
+}
